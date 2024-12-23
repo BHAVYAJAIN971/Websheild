@@ -1,18 +1,35 @@
-https://chamanthmvs.github.io/Phishing-Website-Detection/
+WebShield: Fake Website Detection System
+WebShield is an advanced, data-driven cybersecurity system that leverages machine learning techniques to detect fake websites and phishing attacks. By analyzing various factors such as URLs, HTTPS status, traffic patterns, and metadata, WebShield aims to enhance online security and protect users from malicious websites.
 
-## Phishing-Website-Detection
+Features:
+XGBoost & Random Forest Models: The project implements powerful machine learning models like XGBoost and Random Forest to classify and detect phishing websites with high accuracy. These models were trained using carefully engineered features extracted from URLs and website metadata, enabling real-time detection of suspicious sites.
 
-Financial industry involves an extremely high volume of real time online transactions. This makes vulnerable to fraud. Fraud detection is using security measures to prevent third parties from obtaining funds. This process involves a manual check and automated verification of transaction details to spot any unusual activity that may be a sign of attack and block it.
+HTTPS Validation: The system checks whether a website uses HTTPS encryption, a crucial factor in determining website security. Websites with invalid or missing HTTPS certificates are flagged as potentially dangerous.
 
-## Email Phishing 
+Traffic Analysis: WebShield analyzes website traffic patterns to detect anomalies or patterns commonly associated with phishing or fraudulent activities, adding an additional layer of detection.
 
-Over the years there have been many attacks of Phishing and many people have lost huge sums of money by becoming a victim of phishing attack. In a phishing attack emails are sent to user claiming to be a legitimate organization, where in the email asks user to enter information like name, telephone, bank account number important passwords etc. such emails direct the user to a website where in user enters these personal information. These websites also known as phishing website now steal the entered user information and carries out illegal transactions thus causing harm to the user.Phishing website and their mails are sent to millions of users daily and thus are still a big concern for cyber security.
+URL Parsing: The project includes advanced URL parsing techniques to identify suspicious components in URLs, such as odd domain names or mismatched protocols, which are often indicative of phishing attempts.
 
+How It Works:
+Input: Users provide a URL for analysis.
+URL Parsing: The system extracts important features from the URL, such as domain, path, and query parameters, to identify potentially malicious characteristics.
+HTTPS Validation: The system checks the validity of the website's HTTPS certificate.
+Traffic Analysis: It analyzes traffic patterns to detect unusual behavior.
+Prediction: Using trained models (XGBoost and Random Forest), the system predicts whether the website is legitimate or phishing. The output is presented as a "YES" or "NO" indicating whether the URL is safe or suspicious.
+Technologies Used:
+XGBoost: A powerful machine learning algorithm used for classification tasks, known for its efficiency and accuracy.
+Random Forest: An ensemble learning technique that combines multiple decision trees to improve classification accuracy.
+Scikit-Learn: A comprehensive machine learning library used for data preprocessing, model training, and evaluation.
+HTTPS Validation: Using Python's built-in libraries to validate the security of the website's connection.
+URL Parsing: Using regular expressions and URL parsing libraries to extract meaningful features from URLs.
+Project Details:
+The system is designed to run in real-time, providing instant predictions for any given URL.
+Feature engineering plays a significant role in achieving high model accuracy, incorporating both structural and behavioral website data.
+The project is easily deployable and can be integrated into existing security systems for enhanced protection against phishing attacks.
+Project Report:
+A detailed project report outlining the methodology, model development, feature engineering, and results is included in the repository. This report provides in-depth information on the project’s design and implementation.
 
-### Overview of the project
+Installation & Setup:
+To run this project, clone the repository and follow the instructions in the setup.py file. All dependencies are listed, and we recommend using Anaconda for an easy setup of the necessary Python libraries.
 
-Phishing is one of the luring techniques used by phishing artist in the intention of exploiting the personal details of unsuspected users. Phishing website is a mock website that looks similar in appearance but different in destination. The unsuspected users post their data thinking that these websites come from trusted financial institutions. Several antiphishing techniques emerge continuously but phishers come with new technique by breaking all the antiphishing mechanisms. Hence there is a need for efficient mechanism for the prediction of phishing website.
-
-Please refer to this website, for more details about this project
-
-
+This repository showcases how cybersecurity and machine learning can be combined to tackle the growing issue of phishing and fake websites. By leveraging powerful ML models and analyzing key aspects of website data, WebShield offers a robust solution for identifying and preventing online fraud.
