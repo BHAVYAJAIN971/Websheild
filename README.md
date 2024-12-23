@@ -1,15 +1,18 @@
-# Websheild
-The Phishing Website Detection System offers a robust security mechanism to identify and block phishing domains before they reach users. This project introduces a straightforward and portable solution to detect spoofed webpages and address security vulnerabilities using Machine Learning. The system is user-friendly, with all major operations handled in the backend. Users simply input a URL into the GUI and click the submit button to receive results: "YES" for a phishing URL and "NO" for a safe URL.
+https://chamanthmvs.github.io/Phishing-Website-Detection/
 
-Python Dependencies:
+## Phishing-Website-Detection
 
-NumPy, Pandas, Scikit-learn: For data cleaning, analysis, and modeling.
-Pickle: For exporting the trained model to the local machine.
-Tkinter, PyQt, QtDesigner: For creating the software's graphical user interface (GUI).
-To simplify package and library installations, use Anaconda from www.anaconda.com. It is a comprehensive Python platform that includes essential ML libraries, data analysis tools, Jupyter Notebooks, Spyder, and more, ensuring ease of use and efficiency.
+Financial industry involves an extremely high volume of real time online transactions. This makes vulnerable to fraud. Fraud detection is using security measures to prevent third parties from obtaining funds. This process involves a manual check and automated verification of transaction details to spot any unusual activity that may be a sign of attack and block it.
 
+## Email Phishing 
 
+Over the years there have been many attacks of Phishing and many people have lost huge sums of money by becoming a victim of phishing attack. In a phishing attack emails are sent to user claiming to be a legitimate organization, where in the email asks user to enter information like name, telephone, bank account number important passwords etc. such emails direct the user to a website where in user enters these personal information. These websites also known as phishing website now steal the entered user information and carries out illegal transactions thus causing harm to the user.Phishing website and their mails are sent to millions of users daily and thus are still a big concern for cyber security.
 
 
+### Overview of the project
+
+Phishing is one of the luring techniques used by phishing artist in the intention of exploiting the personal details of unsuspected users. Phishing website is a mock website that looks similar in appearance but different in destination. The unsuspected users post their data thinking that these websites come from trusted financial institutions. Several antiphishing techniques emerge continuously but phishers come with new technique by breaking all the antiphishing mechanisms. Hence there is a need for efficient mechanism for the prediction of phishing website.
+
+Please refer to this website, for more details about this project
 
 
